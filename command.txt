@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --add-data ".env;." --upx-dir=upx --add-data "database_connection.py;." main.py
